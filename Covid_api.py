@@ -22,7 +22,7 @@ def get_corona_update(country):
                 print(f"-new confirmed: {line['NewConfirmed']}")
                 print(f"-deaths: {line['NewDeaths']}")
                 print(f"-recovered: {line['NewRecovered']}")
-            
+
 
 while True:
     country = input("enter country name to get updates -('q' to quit)-: ")
